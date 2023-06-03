@@ -1,29 +1,23 @@
-# Chrome Extension Boilerplate
-Chrome Extension Boilerplate with React, Tailwind, Webpack
+# React Start Kit for Chrome extension with Live Reloading.
 
-## Steps to setup:
-Clone the repo, or run the starter command:
-```sh
-npx @athreelabs/chromex-react-tailwind-webpack-starter <your-project-root-dir>
-```
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Open terminal in the project folder and run: 
-```sh
-npm install
-```
-To build for production, run:
-```sh
-npm run build
-```
-This will create a _'build'_ folder in the root directory which will have the bundled files. Then add the extension to Chrome from the _'build'_ directory.
+## Motivation
 
-To view the popup page (index.html in this case), open the following link in Chrome:<br>
-_chrome-extension://\<extension-ID\>/index.html_
+Please read the entire post here.
 
-(optional) During development, run the following command to watch and recompile whenever a file changes:
-```sh
-npm run dev
-```
+## Available Scripts
 
-## License
-MIT
+### `npm run watch`
+
+It watches the files changes and updates the build.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
